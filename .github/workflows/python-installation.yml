@@ -11,7 +11,7 @@ jobs:
         py-version: [3.14.0, 3.14.0, 3.14.0]
         exclude:
           - os: macos-14
-            py-version: 3.12   # Excluded combination
+            py-version: 3.12  
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
